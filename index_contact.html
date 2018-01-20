@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<!--
+DESCRIPCION:
+Elvis Morell García		30 de diciembre de 2017
+Daniel Álvarez Santiago		Prof. Omar Soto
+
+E&D Quick Lube	
+
+E&D Quick Lube es un taller donde se ofrecen varios productos y servicios para vehiculos.
+-->
+
+<html lang="en">
+
+<head>
+<!-- icono en el tab -->
+<link rel="icon" type="image/png" href="../../images/icons/ed-favicon.png" />
+<!-- nombre en el tab -->
+  <title>E&D </title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Google Fonts Loaded -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i">
+	
+	
+	<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container2 {
+    border-radius: 5px;
+   position:center;
+    padding: 1% 10% 1% 10%;
+}
+</style>
+	
+	<!-- Apply the Shadow Login Form Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i">
+
+	<!-- Main CSS Bootstrap All Defaults -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Some Normalize CSS Rules & Bootstrap All Redefined styles --> 
+	<link rel="stylesheet" href="../../css/custom.bootswatch.css?v=custom"/>
+	<!-- Only Bootstrap Modal Redefined --> 
+	<link rel="stylesheet" href="../../css/custom.bootstrap-creative.css?v=custom"/>
+<!-- Some Normalize CSS Rules & Shadow Login Defaults styles --> 
+	<link rel="stylesheet" href="../../css/style.css">
+	<!-- Local Custom CSS --> 
+	<link rel="stylesheet" href="../../css/custom-style.css?v=custom"/>
+	
+
+</head>
+<body >
+	<div class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+			
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a rel="nofollow" href="../../index.html" class="navbar-brand" style="margin:0px;padding:0px;"><img src="../../images/icons/logo.png" style="height:50px;" alt="E&D-logo" ></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+					
+						<li ><a rel="nofollow" href="../../index.html">Inicio</a></li>
+						
+						<li class="active"><a rel="nofollow" href="../contact/index.html">Contacto<span class="sr-only">(current)</span></a></li>
+						
+						<li><a rel="nofollow" href="#">Citas y Servicios</a></li>
+						
+						<li><a rel="nofollow" href="../tienda/index.html">Tienda</a></li>		
+	
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a rel="nofollow" href="#">Entrar</a></li>
+						<li><a rel="nofollow" href="#">Registrarse</a></li>
+			
+					</ul>
+					
+				</div><!-- /.navbar-collapse -->				
+			</div><!-- /.container -->
+
+		</nav>
+		
+	<div class="jumbotron text-center" style="background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Panorama_rhein_01_black_and_white.jpg/1024px-Panorama_rhein_01_black_and_white.jpg);
+	background-position:left; 
+	background-size:cover;">
+  <h1>
+  E & D Quick Lube</h1>
+</div>
+		
+<div class="page-section">
+<div class="page-article">
+
+	<div class="page-paragraph">
+	<h2 style="text-align:center;">¡Bienvenidos!</h2>
+		<p style="text-align:center;"><br>
+		E&D Quick Lube es un taller donde se ofrecen varios productos y servicios.<br>
+		Entre ellos podemos mencionar: lavado de autos, cambio de aceite y filtro, reparación, venta e instalación de neumáticos, mecánica liviana, venta de piezas para vehículos, entre otros. 
+		
+		</p>
+	</div>		
+	<hr>
+				
+<div class="row" style="text-align:center;">	
+
+   <h2>Contacto</h2>	  
+      <p>
+	  ¿Tiene alguna pregunta? <br>Contactenos en confianza.</p>  
+	  
+	<div class="container2" style="text-align:left;">
+  <form action="/action_page.php">
+    <label for="fname">Nombre</label>
+    <input type="text" id="fname" name="firstname" placeholder="Nombre">
+
+    <label for="lname">Apellido</label>
+    <input type="text" id="lname" name="lastname" placeholder="Apellido">
+	
+	<label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="nombre@ejemplo.com">
+
+    <label for="motivo">Motivo</label>
+    <select id="motivo" name="motivo">
+      <option value="producto">Problema con producto o servicio</option>
+      <option value="pregunta">Pregunta o recomendacion</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <label for="subject"><br>Asunto</label>
+    <textarea id="subject" name="subject" placeholder="Escriba su mensaje aqui..." style="height:200px"></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+  </div>
+  
+</div>
+
+<footer style="text-align:center;">	
+<hr>	
+	<a  href="#top" class="back-to-top"><b>REGRESAR AL TOPE DE PAGINA</b></a>
+	<br><br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Panorama_of_Cinco_de_Mayo_Festival%2C_City_Hall_Plaza%2C_Grand_Prairie%2C_TX_%2805-01-10%29.jpg/800px-Panorama_of_Cinco_de_Mayo_Festival%2C_City_Hall_Plaza%2C_Grand_Prairie%2C_TX_%2805-01-10%29.jpg " class="img-responsive" style="width:100%" alt="footer">
+<!--footer -->	
+	<hr>
+	E&D - Copyright &copy; 2018.
+	<br>
+	<br>
+	<br>
+</footer>
+				
+				
+			</div><!-- /.page-article -->
+		</div><!-- /.page-section -->
+	</div><!-- /.container-fluid -->
+	
+
+</body>
+<!-- JQuery & JS Bootstrap scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
